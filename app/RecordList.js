@@ -31,12 +31,12 @@ export class RecordList{
 
     /**
      * Adds a record to the record list.
-     * @param {str} side Specifies the side of the event.
+     * @param {str} diaperType Specifies the diaper type of the event.
      * @param {date} date Specifies the date of the event.
      */
-    addRecord(side, date){
+    addRecord(diaperType, date){
         // add record to record
-        const record = {side, date: DateToJson(date)};
+        const record = {diaperType, date: DateToJson(date)};
         this.records.unshift(record);
         // remove any extra records
         while(this.records.length > this.max){
