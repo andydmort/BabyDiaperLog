@@ -1,0 +1,36 @@
+<svg>
+    <defs>
+        <link rel="stylesheet" href="main-style.css" />
+        <link rel="import" href="/mnt/sysassets/widgets/text_button.defs" />
+        <symbol id="main-screen">
+            <rect id="main-screen__rect">
+                <use 
+                    id="btn-wet" 
+                    href="#text-button" 
+                    class="text-button" />
+                <use 
+                    id="btn-mix" 
+                    href="#text-button" 
+                    class="text-button" 
+                />
+                <use 
+                    id="btn-poopy" 
+                    href="#text-button" 
+                    class="text-button" 
+                />
+                <text
+                    id="main-screen__center-date-text" 
+                >
+                </text>
+                <text
+                    id="main-screen__center-side-text" 
+                >
+                </text>
+                <use 
+                    id="btn-history" 
+                    href="#text-button" 
+                    class="text-button bottom application-fill" />
+            </rect>
+        </symbol>
+    </defs>
+</svg>

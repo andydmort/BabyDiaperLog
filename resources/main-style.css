@@ -1,0 +1,66 @@
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+}
+
+#main-screen__rect {
+  width: 100%;
+  height: 100%;
+  fill: black;
+}
+
+.application-fill { fill: fb-green; }
+.foreground-fill { fill: fb-blue; }
+.background-fill { fill: fb-black; }
+
+.text-button {
+  y: 10;
+}
+#btn-wet #text {
+  text-buffer: "WET";
+}
+#btn-wet{
+  width: 30%;
+  x: 0;
+  fill: fb-peach;
+}
+
+#btn-mix #text {
+  text-buffer: "MIX";
+}
+#btn-mix{
+  width: 30%;
+  x:33%;
+  fill: fb-lime;
+}
+
+#btn-poopy #text {
+  text-buffer: "POOPY";
+}
+#btn-poopy{
+  width: 30%;
+  x: 66%;
+  fill: saddlebrown;
+}
+
+#btn-history #text {
+  text-buffer: "HISTORY";
+}
+
+#main-screen__center-date-text{
+  y: 50%+20;
+  x: 50%;
+  text-anchor: middle;
+  fill: white;
+  text-length: 14;
+}
+#main-screen__center-side-text{
+  y: 50%-20;
+  x: 50%;
+  text-anchor: middle;
+  fill: white;
+  font-weight: bold;
+  text-length: 5;
+}

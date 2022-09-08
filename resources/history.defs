@@ -1,0 +1,253 @@
+<svg>
+    <defs>
+        <link rel="stylesheet" href="history-style.css" />
+        <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.defs" />
+        <link rel="import" href="/mnt/sysassets/widgets/scrollbar.defs" />
+        <link rel="import" href="/mnt/sysassets/widgets/tile_list_widget.defs" />
+        <link rel="import" href="/mnt/sysassets/widgets/icon_button.defs" />
+        <!-- item  -->
+        <symbol id="history-screen__item" href="#tile-list-item" class="history-screen__item">
+            <text id="text" class="history-screen__item-text" />
+            <rect class="history-screen__line" />
+        </symbol>
+
+        <!-- header -->
+        <symbol id="history-screen__header" href="#tile-list-header" class="history-screen__header">
+        </symbol>
+
+        <!-- footer -->
+        <symbol id="history-screen__footer" href="#tile-list-footer" class="history-screen__footer">
+        </symbol>
+
+        <!-- History Screen -->
+        <symbol id="history-screen">
+            <rect id="history-screen__rect">
+                <use href="#tile-list" id="history-screen__list">
+                    <var id="reorder-enabled" value="0"/>
+
+                    <use href="#history-screen__header">
+                    </use>
+
+                    <use href="#history-screen__item" id="history-screen__item[0]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[1]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[2]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[3]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[4]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[5]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[6]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[7]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[8]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[9]">
+                    </use>
+
+                    <use href="#history-screen__item" id="history-screen__item[10]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[11]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[12]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[13]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[14]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[15]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[16]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[17]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[18]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[19]">
+                    </use>
+
+                    <use href="#history-screen__item" id="history-screen__item[20]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[21]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[22]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[23]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[24]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[25]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[26]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[27]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[28]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[29]">
+                    </use>
+
+                    <use href="#history-screen__item" id="history-screen__item[30]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[31]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[32]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[33]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[34]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[35]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[36]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[37]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[38]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[39]">
+                    </use>
+
+                    <use href="#history-screen__item" id="history-screen__item[40]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[41]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[42]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[43]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[44]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[45]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[46]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[47]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[48]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[49]">
+                    </use>
+
+                    <use href="#history-screen__item" id="history-screen__item[50]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[51]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[52]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[53]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[54]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[55]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[56]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[57]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[58]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[59]">
+                    </use>
+
+                    <use href="#history-screen__item" id="history-screen__item[60]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[61]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[62]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[63]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[64]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[65]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[66]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[67]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[68]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[69]">
+                    </use>
+
+                    <use href="#history-screen__item" id="history-screen__item[70]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[71]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[72]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[73]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[74]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[75]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[76]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[77]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[78]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[79]">
+                    </use>
+
+                    <use href="#history-screen__item" id="history-screen__item[80]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[81]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[82]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[83]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[84]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[85]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[86]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[87]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[88]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[89]">
+                    </use>
+
+                    <use href="#history-screen__item" id="history-screen__item[90]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[91]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[92]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[93]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[94]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[95]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[96]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[97]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[98]">
+                    </use>
+                    <use href="#history-screen__item" id="history-screen__item[99]">
+                    </use>
+
+                    <use href="#history-screen__footer">
+                    </use>
+                    
+                </use>
+                <use 
+                    id="history-screen__rtn-btn" 
+                    href="#icon-button" 
+                    class="small-button history-screen__rtn-btn--color history-screen__rtn-btn--image plus-button" 
+                />
+            </rect>
+        </symbol>
+    </defs>
+</svg>

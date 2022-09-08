@@ -1,0 +1,10 @@
+<svg>
+  <use 
+    id="the-history-screen" 
+    href="#history-screen"
+  />
+  <use 
+    id="the-main-screen"
+    href="#main-screen" 
+  />
+</svg>
