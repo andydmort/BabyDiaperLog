@@ -50,7 +50,7 @@ export class ScreenMain extends Screen {
         // Poopy button
         this.btnPoopy = document.getElementById(btnPoopyId)
         this.setBtnHandler(this.btnPoopy, btnPoopyHandler);
-        // Right button
+        // History button
         this.btnHist = document.getElementById(btnHistId)
         this.setBtnHandler(this.btnHist, btnHistHandler);
         // diaperType text
