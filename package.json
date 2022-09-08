@@ -8,7 +8,7 @@
     "@fitbit/sdk-cli": "^1.7.3"
   },
   "fitbit": {
-    "appUUID": "bb9a791c-7e02-417f-a17d-3f2775ef46eb",
+    "appUUID": "bb9a791c-7e02-417f-a17d-3f2775ef46ed",
     "appType": "app",
     "appDisplayName": "Baby Feed Tracker",
     "iconFile": "resources/icon.png",

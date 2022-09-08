@@ -16,34 +16,38 @@ const recordList = new RecordList({
   }
 });
 // Create the screens
-// screenMain = new ScreenMain({
-//   btnLeftHandler: (evt)=>{
-//     console.log("LEFT clicked");
-//     recordList.addRecord("LEFT", new Date());
-//   },
-//   btnRightHandler: (evt)=>{
-//     console.log("RIGHT clicked");
-//     recordList.addRecord("RIGHT", new Date());
-//   },
-//   btnHistHandler: (evt)=>{
-//     console.log("HISTORY clicked");
-//     screenMain.hide();
-//     screenHistory.show();
-//   } 
-// });
-// screenHistory = new ScreenHistory({
-//   numRecordItems: NUMBER_HISTORY_ITEMS,
-//   btnRtnClickHandler: (evt)=>{
-//     screenHistory.hide();
-//     console.log("RETURN clicked");
-//     screenMain.show();
-//   }
-// });
-// let startingRecords = recordList.getRecords();
-// console.log(`Starting Records: ${JSON.stringify(startingRecords)}`);
-// console.log("Setting previous history");
-// screenHistory.setHistoryUI(startingRecords);
-// console.log("Setting Main screen text");
-// screenMain.setMainUi(startingRecords[0]);
-// console.log("Showing main screen");
-// screenMain.show();
+screenMain = new ScreenMain({
+  btnWetHandler: (evt)=>{
+    console.log("Wet clicked");
+    recordList.addRecord("WET", new Date());
+  },
+  btnMixHandler: (evt)=>{
+    console.log("Mix clicked");
+    recordList.addRecord("MIX", new Date());
+  },
+  btnPoopyHandler: (evt)=>{
+    console.log("Poopy clicked");
+    recordList.addRecord("POOPY", new Date());
+  },
+  btnHistHandler: (evt)=>{
+    console.log("HISTORY clicked");
+    screenMain.hide();
+    screenHistory.show();
+  } 
+});
+screenHistory = new ScreenHistory({
+  numRecordItems: NUMBER_HISTORY_ITEMS,
+  btnRtnClickHandler: (evt)=>{
+    screenHistory.hide();
+    console.log("RETURN clicked");
+    screenMain.show();
+  }
+});
+let startingRecords = recordList.getRecords();
+console.log(`Starting Records: ${JSON.stringify(startingRecords)}`);
+console.log("Setting previous history");
+screenHistory.setHistoryUI(startingRecords);
+console.log("Setting Main screen text");
+screenMain.setMainUi(startingRecords[0]);
+console.log("Showing main screen");
+screenMain.show();

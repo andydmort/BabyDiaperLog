@@ -38,7 +38,7 @@
   text-length: 23;
 }
 
-.history-screen__rtn-btn--color { fill: fb-aqua; }
+.history-screen__rtn-btn--color { fill: fb-green; }
 
 #history-screen__rtn-btn {
   x: 100%-75;

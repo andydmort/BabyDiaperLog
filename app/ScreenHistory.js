@@ -36,7 +36,7 @@ export class ScreenHistory extends Screen {
 
     /**
      * Alters the UI according to a list of records.
-     * @param {{side: str, date: Date}[]} records 
+     * @param {{diaperType: str, date: Date}[]} records 
      */
     setHistoryUI(records){
         for(let idx = 0; idx < this.numRecordItems; idx++){
@@ -44,9 +44,21 @@ export class ScreenHistory extends Screen {
             const uiItem = document.getElementById(uiItemId);
             const record = records[idx];
             if(record){
-                const side = record.side;
+                const diaperType = record.diaperType;
                 const date = DateFromJson(record.date);
-                uiItem.text = `${FormatDate(date)} | ${side}`;
+                uiItem.text = `${FormatDate(date)} | ${diaperType}`;
+                let textEl = uiItem.getElementById("text");
+                switch(diaperType){
+                    case "WET":
+                        textEl.style.fill = "fb-peach";
+                        break;
+                    case "MIX":
+                        textEl.style.fill = "fb-lime";
+                        break;
+                    case "POOPY":
+                        textEl.style.fill = "saddlebrown";
+                        break;
+                }
                 uiItem.style.display = 'inline';
             }
             else{
