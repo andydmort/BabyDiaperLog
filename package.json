@@ -1,6 +1,6 @@
 {
   "name": "baby-diaper-log",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "license": "MIT",
   "devDependencies": {
@@ -11,7 +11,7 @@
     "appUUID": "bb9a791c-7e02-417f-a17d-3f2775ef46ed",
     "appType": "app",
     "appDisplayName": "Diaper Log",
-    "iconFile": "publishing_resources/baby.png",
+    "iconFile": "resources/icon.png",
     "wipeColor": "#ffffff",
     "requestedPermissions": [],
     "buildTargets": [
