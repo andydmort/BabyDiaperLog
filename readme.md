@@ -1,5 +1,6 @@
 # Baby Diaper Log
 
+This is an app for new parent to record consistency of diapers. The app will record up to 100 records. A parent can click on the buttons to create a record. Previous records can be reviewed by clicking on the history button.
 
 ## Credits
 
