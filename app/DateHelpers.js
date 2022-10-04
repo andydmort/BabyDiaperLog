@@ -31,8 +31,8 @@ function FormatTime(hours, mins){
         amPm = "AM";
     else
         amPm = "PM";
-    let formatedHours = (hours+1)%12;
-    let formatedMins = mins+1;
+    let formatedHours = (hours)%12 === 0 ? 12 : (hours)%12;
+    let formatedMins = mins;
 
     return `${Pad(formatedHours)}:${Pad(formatedMins)} ${amPm}`;
 }
